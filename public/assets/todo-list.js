@@ -14,9 +14,10 @@ $(document).ready(function(){
           location.reload();
         }
       });
-      return false;
-  });
 
+      return false;
+
+  });
 
   $('li').on('click', function(){
       var item = $(this).text().replace(/ /g, "-");
